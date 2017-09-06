@@ -215,3 +215,59 @@ To https://github.com/githubtrainingjp/YourFirstRepoDK20170906.git
 Branch branch_gwx2 set up to track remote branch branch_gwx2 from origin.
 
 kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (branch_gwx2)
+
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (master)
+$
+
+kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (master)
+$ git pull
+remote: Counting objects: 66, done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 66 (delta 27), reused 45 (delta 18), pack-reused 0
+Unpacking objects: 100% (66/66), done.
+From https://github.com/githubtrainingjp/YourFirstRepoDK20170906
+   e87f78b..d860fa8  master      -> origin/master
+ * [new branch]      074220test  -> origin/074220test
+ * [new branch]      echobranch  -> origin/echobranch
+ * [new branch]      nt098512_2  -> origin/nt098512_2
+ * [new branch]      ss098146    -> origin/ss098146
+ * [new branch]      tanuqn      -> origin/tanuqn
+ * [new branch]      th037273-B2 -> origin/th037273-B2
+ * [new branch]      tn100053    -> origin/tn100053
+ * [new branch]      us028354    -> origin/us028354
+ * [new branch]      yt098884    -> origin/yt098884
+Updating e87f78b..d860fa8
+Fast-forward
+ aaa.txt           | 1 +
+ dinner            | 1 +
+ frank.md          | 1 +
+ ik097016ご飯.md | 6 ++----
+ ks097990.md       | 4 +++-
+ new_learn.txt     | 2 ++
+ nt098512.md       | 2 ++
+ nt100053.md       | 1 +
+ st100059.md       | 4 ++++
+ tanuqn.md         | 3 +++
+ th037273-b1.md    | 1 +
+ yy097012Test.md   | 3 ++-
+ 12 files changed, 23 insertions(+), 6 deletions(-)
+ create mode 100644 aaa.txt
+ create mode 100644 tanuqn.md
+
+kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (master)
+$ git checkout branch_gwx2
+Switched to branch 'branch_gwx2'
+Your branch is up-to-date with 'origin/branch_gwx2'.
+
+kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (branch_gwx2)
+$ git status
+On branch branch_gwx2
+Your branch is up-to-date with 'origin/branch_gwx2'.
+nothing to commit, working tree clean
+
+kensyu@DH008E4C MINGW32 ~/Documents/YourFirstRepoDK20170906 (branch_gwx2)
+$ git
