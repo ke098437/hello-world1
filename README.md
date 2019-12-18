@@ -14,3 +14,10 @@ testtesttest
 2、HKEY_CLASSES_ROOT\Directory\Background\shell\YourItemHere\Command\
 
     此注册表项的默认内容将决定右键菜单被点击时执行的命令，如"cmd.exe /k cd "%V""，其中%V代表了当前文件夹的路径
+    
+    
+指定コミットをマージする場合    
+■git cherry-pick
+https://www.sejuku.net/blog/71544
+の複数コミットの場合のgit cherry-pick [コミットID(A)]..[コミットID(B)]
+
