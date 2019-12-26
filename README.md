@@ -1,11 +1,3 @@
-# hello-world1
-the first project of git
-
-this is bracnch no readme
-
-testtesttest
-
-
 注册表项：
 1、HKEY_CLASSES_ROOT\Directory\Background\shell\YourItemHere\
 
@@ -21,3 +13,23 @@ testtesttest
 https://www.sejuku.net/blog/71544
 の複数コミットの場合のgit cherry-pick [コミットID(A)]..[コミットID(B)]
 
+
+VBA读取Json 关键代码
+    Set obj = CreateObject("ScriptControl")
+    obj.Language = "JScript"
+    obj.addcode "function jsonParse(s){ return eval('('+s+')');}"
+    
+    Set json = obj.CodeObject.jsonParse(strJSON)
+    
+    splt = Split(CallByName(json, "RECORDS", VbGet), ",")
+    CallByName(CallByName(CallByName(json, "RECORDS", VbGet), i, VbGet), "COLUMN_NAME", VbGet)
+    
+    
+VBA实行JAR
+    Dim ws As WshShell
+    Dim we As WshExec
+    Set ws = New WshShell
+    Set we = ws.Exec("cmd.exe /c javaw  -jar C:\****.jar """ & parSql & """ " & DBType)
+    returnStr = we.StdOut.ReadAll
+    Set ws = Nothing
+    Set we = Nothing
