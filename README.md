@@ -33,3 +33,11 @@ VBA实行JAR
     returnStr = we.StdOut.ReadAll
     Set ws = Nothing
     Set we = Nothing
+
+VBAのxlaの快捷键设置
+    alt + f11
+    xla的ThisWorkbook 选择
+    IsAddIn：False
+    Excel：alt + f8
+    快捷键设置
+    IsAddIn：True
